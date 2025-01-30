@@ -33,8 +33,16 @@ CREATE DATABASE crud_db;
 
 
 GIT
+
+--first commit 
 git add .
 git checkout -b fullstack-project - branch created
 git push -u origin fullstack-project
+
+git config --global user.name "Christian Jones"
+git config --global user.email "ekumkofi@gmail.com"
+git config --global --list
+git commit -m "CRUD-NEXT-JS-FASTAPI-MYSQL setup"
+git push
 
 
